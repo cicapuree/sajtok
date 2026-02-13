@@ -3,19 +3,19 @@ const sajtok = [
         id: 1,
         nev: "Mozzarella",
         kepUrl: "mozzarella.png",
-        leiras: "Absolute number one! Barmikor bármilyen formában falnám."
+        leiras: "Absolute number one! Bármikor bármilyen formában falnám. Kedvencem."
     },
     {
         id: 2, 
         nev: "Cottage",
         kepUrl: "cottage.png",
-        leiras: "Először nem is tudtam, hogy ez tényleg sajtnak számít. Amúgy ez is fini."
+        leiras: "Először nem is tudtam, hogy ez tényleg sajtnak számít. Ez is fini."
     },
     {
         id: 3,
         nev: "Cheddar",
         kepUrl: "cheddar.png",
-        leiras: "Magában kicsit erős az íze, de mindenféle kajában nagyon banger"
+        leiras: "Magában kicsit erős az íze, de mindenféle ételben nagyon finom."
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ const sajtok = [
         id: 7,
         nev: "Roquefort",
         kepUrl: "blue.png",
-        leiras: "Amúgy finom, addig, amíg az agyad nem realizálja, hogy penészt eszel. Olvasztva és szószokban igen baszó."
+        leiras: "Amúgy finom, addig, amíg az agyad nem realizálja, hogy penészt eszel. Olvasztva és szószokban a legjobb."
     },
     {
         id: 8,
@@ -110,4 +110,5 @@ document.getElementById('sajt-modal').addEventListener('click', (esemeny) => {
     if (esemeny.target === document.getElementById('sajt-modal')) {
         bezarModal();
     }
+
 });
